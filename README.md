@@ -216,12 +216,9 @@ The `sql/` and `src/` directories are reserved for possible future extensions. S
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/wa-fuel-price-analytics.git
+git clone https://github.com/LamCheems/wa-fuel-price-analytics.git
 cd wa-fuel-price-analytics
 ```
-
-Replace `YOUR-USERNAME` with the correct GitHub username.
-
 ### 2. Install the dependencies
 
 ```bash
