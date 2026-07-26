@@ -4,6 +4,19 @@ An end-to-end data analytics project exploring regular unleaded petrol prices ac
 
 The project uses Western Australian FuelWatch data from January to June 2026 to identify fuel-price trends, compare suburbs and brands, rank consistently competitive stations, and estimate potential savings for motorists.
 
+## Live Dashboard
+[Open the Streamlit dashboard](https://wa-fuel-price-analytics-5ezx55prupurnc7nr5quvz.streamlit.app/)
+
+## Dashboard Preview
+
+### Dashboard Overview
+
+![Dashboard overview](docs/dashboard-overview.png)
+
+### Consistently Cheap Station Ranking
+
+![Station ranking](docs/station-ranking.png)
+
 ## Market Context
 
 The January–June 2026 period contained substantial fuel-price movements.
@@ -161,20 +174,6 @@ The Streamlit dashboard provides:
 * downloadable CSV results;
 * explanatory notes about the analysis methodology.
 
-## Live Dashboard
-[Open the Streamlit dashboard](https://wa-fuel-price-analytics-5ezx55prupurnc7nr5quvz.streamlit.app/)
-
-## Dashboard Preview
-
-### Dashboard Overview
-
-![Dashboard overview](docs/dashboard-overview.png)
-
-### Consistently Cheap Station Ranking
-
-![Station ranking](docs/station-ranking.png)
-```
-
 ## Project Structure
 
 ```text
@@ -187,20 +186,19 @@ wa-fuel-price-analytics/
 │   ├── raw/
 │   └── processed/
 │       └── perth_ulp_2026_01_to_06.csv
-│
+|
+├── docs/
+│   ├── dashboard-overview.png
+│   └── station-ranking.png
+|
 ├── notebooks/
 │   ├── 01_data_inspection.ipynb
 │   └── 02_exploratory_analysis.ipynb
 │
-├── src/
-├── sql/
-├── docs/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
-
-The `sql/` and `src/` directories are reserved for possible future extensions. SQL is not currently used in the completed analysis.
 
 ## Technologies
 
@@ -219,6 +217,7 @@ The `sql/` and `src/` directories are reserved for possible future extensions. S
 git clone https://github.com/LamCheems/wa-fuel-price-analytics.git
 cd wa-fuel-price-analytics
 ```
+
 ### 2. Install the dependencies
 
 ```bash
@@ -256,7 +255,6 @@ Possible extensions include:
 * storing the processed data in SQLite;
 * adding SQL queries for suburb, brand, and station analysis;
 * forecasting short-term fuel prices;
-* deploying the dashboard publicly.
 
 ## Author
 
