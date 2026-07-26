@@ -246,15 +246,15 @@ The app should open automatically in a web browser.
 
 Possible extensions include:
 
-* adding additional months of FuelWatch data;
-* automating the monthly data pipeline;
-* adding geographic station maps;
-* calculating savings after estimated travel costs;
-* integrating international oil-price data;
-* comparing prices before and after major policy changes;
-* storing the processed data in SQLite;
-* adding SQL queries for suburb, brand, and station analysis;
-* forecasting short-term fuel prices;
+* adding additional months of FuelWatch data
+* automating the monthly data pipeline
+* adding geographic station maps
+* calculating savings after estimated travel costs
+* integrating international oil-price data
+* comparing prices before and after major policy changes
+* storing the processed data in SQLite
+* adding SQL queries for suburb, brand, and station analysis
+* forecasting short-term fuel prices
 
 ## Author
 
