@@ -163,16 +163,13 @@ The Streamlit dashboard provides:
 
 ## Dashboard Preview
 
-Add a screenshot of the completed dashboard to:
+### Dashboard Overview
 
-```text
-docs/dashboard-preview.png
-```
+![Dashboard overview](docs/dashboard-overview.png)
 
-Then display it using:
+### Consistently Cheap Station Ranking
 
-```markdown
-![WA Fuel Price Analytics Dashboard](docs/dashboard-preview.png)
+![Station ranking](docs/station-ranking.png)
 ```
 
 ## Project Structure
