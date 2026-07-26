@@ -161,6 +161,9 @@ The Streamlit dashboard provides:
 * downloadable CSV results;
 * explanatory notes about the analysis methodology.
 
+## Live Dashboard
+[Open the Streamlit dashboard](https://wa-fuel-price-analytics-5ezx55prupurnc7nr5quvz.streamlit.app/)
+
 ## Dashboard Preview
 
 ### Dashboard Overview
