@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-DATA_PATH = Path("data/processed/perth_ulp_2026_04_to_06.csv")
+DATA_PATH = Path("data/processed/perth_ulp_2026_01_to_06.csv")
 
 
 @st.cache_data
