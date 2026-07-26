@@ -10,7 +10,7 @@ This project transforms raw FuelWatch records into a cleaned analytical dataset 
   + Which stations remained below the daily Perth market average?
   + How much could a motorist potentially save on a full tank?
   + How did Perth ULP prices change between January and June 2026?
-  + 
+    
 ## Project objectives
 - Clean and combine monthly FuelWatch datasets.
 - Filter the data to regular unleaded petrol in the Perth metropolitan area.
